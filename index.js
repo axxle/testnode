@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.get('/', function(request, response){
    response.header("Content-Security-Policy", "default-src 'self';script-src 'self';object-src 'none';img-src 'self';media-src 'self';frame-src 'none';font-src 'self' data:;connect-src 'self';style-src 'self'");
-   response.send("<h1>Get method not implements</h1>");
+   response.send("<h1>Start page</h1><p>Будем использовать NodeJS для валидации на стороне сервера (переиспользование JS кода валидации)");
 });
 
 app.get('/validate1', function(request, response){
