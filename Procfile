@@ -1,1 +1,1 @@
-web: wget https://raw.githubusercontent.com/axxle/testnode/master/my-validation-script.js && node index.js
+web: wget https://raw.githubusercontent.com/axxle/insurance-app/master/insurance-ui/src/App/validate-insurance-app.js && node index.js
